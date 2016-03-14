@@ -1,0 +1,66 @@
+body{
+    background-color: lightgrey;
+}
+.content
+{
+    width: 1096px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+nav 
+{
+    background-color: #7D7D7D;
+    color: white;
+    height: 35px;
+    display: block;
+    width: 1096px;
+    transition-property: top;
+    transition-duration: 500ms;
+    top: 0;
+    position: fixed;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 3em;
+    overflow: hidden;
+    height: 35px;
+}
+
+nav ul li
+{
+    float: left;
+    padding: 0 3em;
+}
+nav ul li:hover
+{
+    background-color: black;
+}
+nav ul li a
+{
+    color: white;
+    line-height: 2em;
+    text-decoration: none;
+    font-size: 18px;
+}
+main
+{
+    margin: 2em 2em;
+}
+
+article
+{
+    width: 50%;
+}
+article img
+{
+    width: 100%;
+}
+
+hr
+{
+    width: 50%;
+    margin-left: 0;
+}
